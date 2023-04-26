@@ -1,0 +1,26 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) 
+ {  
+  
+   int bas;
+        int altura;
+        int total;
+
+        Console.WriteLine("Digite a base");
+        bas = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite altura");
+        altura = int.Parse(Console.ReadLine());
+
+        total = (altura * bas) / 2;
+
+        if (total >= 100)
+        {
+            Console.WriteLine("Terreno é Grande");
+            Console.WriteLine("Com a Area de " + total);
+        
+
+           
+  
+}
